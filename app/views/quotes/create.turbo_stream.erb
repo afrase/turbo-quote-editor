@@ -1,0 +1,3 @@
+<%= turbo_stream.prepend("quotes", @quote) %>
+<%= turbo_stream.update(dom_id(Quote)) %>
+<%= render_turbo_stream_flash_messages %>

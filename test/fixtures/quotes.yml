@@ -1,0 +1,11 @@
+first:
+  company: acme
+  name: First quote
+
+second:
+  company: acme
+  name: Second quote
+
+third:
+  company: acme
+  name: Third quote

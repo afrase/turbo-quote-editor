@@ -1,0 +1,24 @@
+acme_admin:
+  company: acme
+  email: admin@acme.com
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
+
+accountant:
+  company: acme
+  email: accountant@acme.com
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
+
+manager:
+  company: acme
+  email: manager@acme.com
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
+
+example_admin:
+  company: example
+  email: admin@example.com
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
+
+eavesdropper:
+  company: example
+  email: eavesdropper@example.com
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
